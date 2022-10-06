@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+
+</head>
+<body>
+  <!-- Choropleth Map Section -->
+  <div class="section p-3">
+    <div class="container">
+      <div class="row blue p-3 sp">
+          <div class="titles d-flex justify-content-center p-3 h2">
+              World Hapinnes Score
+            </div>
+          <div class="col-12 d-flex justify-content-center">
+              <div id="worldmap"></div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    var worldmap = "json/WH_map.json";
+    vegaEmbed("#worldmap", worldmap)
+        .then(function (result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+  </script>
+
+  </body>
+</html>
