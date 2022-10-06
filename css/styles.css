@@ -6,3 +6,39 @@
 	/*height: 1000px;
 	width: 800px;*/
 }
+
+body {
+  font-size: large;
+  font-family: 'Inter', sans-serif !important;
+  background-color: #ffffff;
+}
+
+.vega-bind-name {
+  padding: 5px;
+}
+
+#flourish-credit {
+  display: none !important;
+}
+
+#headline {
+  font-family: "Sora", sans-serif;
+  font-size: 4em;
+}
+
+.container {
+  border: 1px solid;
+  box-shadow: 5px 10px #919191;
+}
+
+
+select {
+  background-color: rgb(255, 255, 255);
+  padding: 2px;
+}
+
+.pop {
+  font-size: xx-large;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255),
+  2px 2px 1px rgb(255, 255, 255); 
+}
