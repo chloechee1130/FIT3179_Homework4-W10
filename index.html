@@ -34,6 +34,19 @@
       </div>
     </div>
   </div>
+
+  <!-- Scatterplot selection (interactive) -->
+  <div class="section p-3">
+    <div class="container">
+      <div class="row blue p-3 sp">
+        <div class="col-12 d-flex justify-content-center">
+            <div id="scatterplot"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <script type="text/javascript">
     var worldmap = "json/WH_map.json";
     vegaEmbed("#worldmap", worldmap)
@@ -41,7 +54,17 @@
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         })
         .catch(console.error);
+
+    var worldmap = "json/scatterplot.json";
+    vegaEmbed("#scatterplot", scatterplot)
+        .then(function (result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+
   </script>
+
+
 
   </body>
 </html>
