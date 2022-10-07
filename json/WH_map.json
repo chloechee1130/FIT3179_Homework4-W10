@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "World Happiness Score (2019-2020)",
-  "width": 1000,
-  "height": 600,
+  "width": 800,
+  "height": 400,
   "projection": {"type": "equalEarth"},
   "data": {
     "url": "https://raw.githubusercontent.com/chloechee1130/FIT3179_Homework4-W10/main/json/ne_110m.json",
