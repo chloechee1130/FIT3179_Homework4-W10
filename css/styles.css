@@ -1,33 +1,3 @@
-#worldmap {
-	top:100px;
-	bottom: 100px;
-	left: 100px;
-	right: 100px;
-	/*height: 1000px;
-	width: 800px;*/
-/* 	min-height: 500px; */
-}
-
-#scatterplot{
-	top:100px;
-	bottom: 100px;
-	left: 100px;
-	right: 100px;
-/* 	min-height: 500px; */
-}
-
-body {
-  font-size: large;
-  font-family: 'Inter', sans-serif !important;
-  background-color: #ffffff;
-}.vega-bind-name {
-  padding: 5px;
-}
-
-/* #flourish-credit {
-  display: none !important;
-} */
-
 #headline {
   font-family: "Sora", sans-serif;
   font-size: 4em;
@@ -35,8 +5,53 @@ body {
 }.container {
   	border: 2px solid;
   	box-shadow: 5px 10px #919191;
-	}
+}
 
+#worldmap {
+	top:100px;
+	bottom: 100px;
+	left: 100px;
+	right: 100px;
+	/*height: 1000px;
+	width: 800px;*/
+	min-height: 100px;
+}
+.bgwhite {
+  background-color: #ffffff;
+}
+
+.bg1 {
+  background-color: rgb(252, 244, 172);
+}
+
+.bg2 {
+  background-color: rgb(178, 224, 207);
+}
+
+.bg3 {
+	background-color: rgb(164, 199, 186);
+}
+
+#scatterplot{
+	top:100px;
+	bottom: 100px;
+	left: 100px;
+	right: 100px;
+	min-height: 100px;
+}
+
+body {
+  font-size: large;
+  font-family: 'Inter', sans-serif !important;
+  background-color: #ffffff;
+}
+.vega-bind-name {
+  padding: 5px;
+}
+/*
+#flourish-credit {
+  display: none !important;
+} */
 
 select {
   background-color: rgb(255, 255, 255);
