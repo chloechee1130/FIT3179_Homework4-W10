@@ -5,9 +5,6 @@
 	right: 100px;
 	/*height: 1000px;
 	width: 800px;*/
-}.container {
-  	border: 1px solid;
-  	box-shadow: 5px 10px #919191;
 }
 
 #scatterplot{
@@ -15,9 +12,6 @@
 	bottom: 100px;
 	left: 100px;
 	right: 100px;
-}.container {
-  	border: 1px solid;
-  	box-shadow: 5px 10px #919191;
 }
 
 body {
